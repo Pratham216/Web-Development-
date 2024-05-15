@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratham Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Ubuntu:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Baloo Bhai 2', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-repeat: no-repeat;
+            background-image: url(https://wallpaperaccess.com/full/1633830.jpg);
+            background-position-x: right;
+            /* height:1200px; */
+        }
+        
+        .left {
+            /* for logo */
+            position: absolute;
+            top: 34px;
+            left: 20px;
+            display: inline-block;
+           
+
+
+        }
+
+        img {
+            width: 76px;
+        }
+
+        div.text {
+
+            width: 40px;
+            padding: 13px 10px;
+            font-size: 19px;
+        }
+
+        .mid {
+            /* for navbar */
+            display: block;
+            width: 46%;
+            margin: 20px auto;
+            border: 4px solid darkblue;
+            /* background-color: rgb(1, 1, 1); */
+            border-radius: 10px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 24px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 18px 18px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+
+        .right {
+            /* for buttons */
+            position: absolute;
+            top: 20px;
+            right: 24px;
+            /* height: 67px;
+            width: 110px; */
+            display: inline-block;
+           
+
+        }
+
+
+        .btn {
+            font-family: 'Baloo Bhai 2', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+            margin: 0px 9px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 6px 4px;
+            font-size: 15px;
+            border-radius: 10px;
+            border: 2px solid rgb(20, 1, 78);
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: rgb(178, 176, 176);
+        }
+
+        .container {
+            border: 2px solid white;
+            padding: 10px;
+            margin: 116px 80px;
+            width: 50%;
+            border-radius: 28px;
+        }
+
+        h2 {
+            padding: 24px;
+            text-align: center;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 3px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        .container .btn{
+            margin: 25px;
+            width: 150px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="left">
+            <img src="gym_logo.jpeg" alt="">
+
+            <br>
+            Pratham's fitntess
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Login</button>OR
+            <button class="btn">Sign Up</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h2>Join the best gym of Delhi now!!</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+        </form>
+
+        <button class="btn">Submit</button>
+
+    </div>
+
+</body>
+
+</html>
